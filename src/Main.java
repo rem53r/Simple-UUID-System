@@ -29,6 +29,7 @@ public class Main {
         return uuid;
     }
 
+    // check
     public static int checkUUID(String uuid) throws IOException {
         URL url = new URL(UrlWithHwids);
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(url.openStream()))) {
